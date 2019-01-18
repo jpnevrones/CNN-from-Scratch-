@@ -1,0 +1,28 @@
+﻿  pch.cpp
+  activation.cpp
+  channelThree.cpp
+  convolution.cpp
+  dllmain.cpp
+  DeepNet_v1_0.cpp
+  dropout.cpp
+  fullyConnected.cpp
+  input.cpp
+c:\users\jxp161430\documents\deepnet\deepnet_v1_0\deepnet_v1_0\activation.cpp(171): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "pch.h"' to your source?
+c:\users\jxp161430\documents\deepnet\deepnet_v1_0\deepnet_v1_0\channelthree.cpp(115): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "pch.h"' to your source?
+c:\users\jxp161430\documents\deepnet\deepnet_v1_0\deepnet_v1_0\dropout.cpp(164): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "pch.h"' to your source?
+  ioProcess.cpp
+c:\users\jxp161430\documents\deepnet\deepnet_v1_0\deepnet_v1_0\input.cpp(88): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "pch.h"' to your source?
+  network.cpp
+  normalization.cpp
+  pooling.cpp
+c:\users\jxp161430\documents\deepnet\deepnet_v1_0\deepnet_v1_0\fullyconnected.cpp(149): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "pch.h"' to your source?
+c:\users\jxp161430\documents\deepnet\deepnet_v1_0\deepnet_v1_0\convolution.cpp(338): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "pch.h"' to your source?
+  softmax.cpp
+  utilities.cpp
+c:\users\jxp161430\documents\deepnet\deepnet_v1_0\deepnet_v1_0\ioprocess.cpp(180): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "pch.h"' to your source?
+c:\users\jxp161430\documents\deepnet\deepnet_v1_0\deepnet_v1_0\network.cpp(1088): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "pch.h"' to your source?
+c:\users\jxp161430\documents\deepnet\deepnet_v1_0\deepnet_v1_0\normalization.cpp(168): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "pch.h"' to your source?
+c:\users\jxp161430\documents\deepnet\deepnet_v1_0\deepnet_v1_0\pooling.cpp(156): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "pch.h"' to your source?
+c:\users\jxp161430\documents\deepnet\deepnet_v1_0\deepnet_v1_0\softmax.cpp(150): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "pch.h"' to your source?
+c:\users\jxp161430\documents\deepnet\deepnet_v1_0\deepnet_v1_0\utilities.cpp(399): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "pch.h"' to your source?
+c:\users\jxp161430\documents\deepnet\deepnet_v1_0\deepnet_v1_0\deepnet_v1_0.h(49): fatal error C1083: Cannot open include file: 'opencv2\core\utility.hpp': No such file or directory (compiling source file DeepNet_v1_0.cpp)

@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tga;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{5fa4ee6e-616f-49cb-8336-2ba233b46caf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{300cbde3-7590-4812-b0c6-99adddbbbbc8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Network">
+      <UniqueIdentifier>{b8f4bd83-7bf3-4b8f-8610-f9e260a5409b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Network">
+      <UniqueIdentifier>{b1ce411b-cf23-4f1f-bb80-dee7025fd160}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Network\Layers">
+      <UniqueIdentifier>{71e43411-b706-495a-b106-63116dfd76c9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp" />
+    <ClCompile Include="DeepNet_v1_0.cpp" />
+    <ClCompile Include="pch.cpp" />
+    <ClCompile Include="activation.cpp">
+      <Filter>Source Files\Network\Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="convolution.cpp">
+      <Filter>Source Files\Network\Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="dropout.cpp">
+      <Filter>Source Files\Network\Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="fullyConnected.cpp">
+      <Filter>Source Files\Network\Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="input.cpp">
+      <Filter>Source Files\Network\Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="normalization.cpp">
+      <Filter>Source Files\Network\Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="pooling.cpp">
+      <Filter>Source Files\Network\Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="softmax.cpp">
+      <Filter>Source Files\Network\Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="channelThree.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ioProcess.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="network.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="utilities.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DeepNet_v1_0.h" />
+    <ClInclude Include="pch.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="layer.h">
+      <Filter>Header Files\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="network.h">
+      <Filter>Header Files\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="ioProcess.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="utilities.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\opencv\vs2015\WS\10.0\x64\bin\Release\opencv_core300.dll" />
+    <None Include="..\..\opencv\vs2015\WS\10.0\x64\bin\Release\opencv_imgcodecs300.dll" />
+    <None Include="..\..\opencv\vs2015\WS\10.0\x64\bin\Release\opencv_imgproc300.dll" />
+    <None Include="..\..\opencv\vs2015\WS\10.0\x64\bin\Release\opencv_ml300.dll" />
+    <None Include="..\..\opencv\vs2015\WS\10.0\x64\bin\Release\opencv_objdetect300.dll" />
+    <None Include="..\..\opencv\vs2015\WS\10.0\x64\bin\Release\opencv_videoio300.dll" />
+  </ItemGroup>
+</Project>

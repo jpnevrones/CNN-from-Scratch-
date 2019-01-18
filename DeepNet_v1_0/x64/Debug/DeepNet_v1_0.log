@@ -1,0 +1,45 @@
+﻿  pch.cpp
+  activation.cpp
+  channelThree.cpp
+  convolution.cpp
+  dllmain.cpp
+  DeepNet_v1_0.cpp
+  dropout.cpp
+  fullyConnected.cpp
+  input.cpp
+dllmain.cpp(3): warning C4447: 'main' signature found without threading model. Consider using 'int main(Platform::Array<Platform::String^>^ args)'.
+  ioProcess.cpp
+fullyConnected.cpp(31): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+convolution.cpp(62): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+DeepNet_v1_0.cpp(90): warning C4447: 'main' signature found without threading model. Consider using 'int main(Platform::Array<Platform::String^>^ args)'.
+ioProcess.cpp(105): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  network.cpp
+  normalization.cpp
+  pooling.cpp
+  softmax.cpp
+  utilities.cpp
+normalization.cpp(119): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+normalization.cpp(123): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+normalization.cpp(124): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+normalization.cpp(143): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+normalization.cpp(147): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+normalization.cpp(148): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+utilities.cpp(351): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+softmax.cpp(31): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+network.cpp(62): warning C4553: '==': operator has no effect; did you intend '='?
+network.cpp(63): warning C4553: '==': operator has no effect; did you intend '='?
+network.cpp(64): warning C4553: '==': operator has no effect; did you intend '='?
+network.cpp(100): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+network.cpp(109): warning C4553: '==': operator has no effect; did you intend '='?
+network.cpp(110): warning C4553: '==': operator has no effect; did you intend '='?
+network.cpp(111): warning C4553: '==': operator has no effect; did you intend '='?
+network.cpp(112): warning C4553: '==': operator has no effect; did you intend '='?
+network.cpp(139): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+network.cpp(282): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+network.cpp(320): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+network.cpp(369): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+network.cpp(371): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+network.cpp(445): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+network.cpp(471): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  DeepNet_v1_0.vcxproj -> C:\Users\jxp161430\Documents\DeepNet\DeepNet_v1_0\x64\Debug\DeepNet_v1_0\DeepNet_v1_0.dll
+  DeepNet_v1_0.vcxproj -> C:\Users\jxp161430\Documents\DeepNet\DeepNet_v1_0\x64\Debug\DeepNet_v1_0\DeepNet_v1_0.pdb (Partial PDB)
